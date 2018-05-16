@@ -5,8 +5,14 @@ import './Footer.css';
 const Footer = () => {
   return(
     <footer className="navbar navbar-expand-lg navbar-dark bg-dark d-flex">
-      <div className="text-center">
+      <div className="col-lg-4 text-center">
+        <p>Some Text</p>
+      </div>
+      <div className="col-lg-4 text-center">
         <img src={footerLogo} alt="Footer Logo"/>
+      </div>
+      <div className="col-lg-4 text-center">
+        <p>Some Text</p>
       </div>
     </footer>
   )
